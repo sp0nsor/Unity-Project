@@ -7,6 +7,8 @@ TagManager:
   - CinemachineTarget
   - CheckPoint
   - KillZone
+  - CheckPoint1
+  - CheckPoint2
   layers:
   - Default
   - TransparentFX
