@@ -9,6 +9,7 @@ TagManager:
   - KillZone
   - CheckPoint1
   - CheckPoint2
+  - KillBox
   layers:
   - Default
   - TransparentFX

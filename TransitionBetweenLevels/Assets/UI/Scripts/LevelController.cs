@@ -41,7 +41,7 @@ public class LevelController : MonoBehaviour
     }
     void LoadMainMenu()
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("SampleScene");
     }
 
 }

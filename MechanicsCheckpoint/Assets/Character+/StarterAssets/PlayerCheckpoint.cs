@@ -15,7 +15,7 @@ public class PlayerCheckpoint : MonoBehaviour
     }
     void Update()
     {
-        if (gameObject.transform.position.y < -20f)
+        if (gameObject.transform.position.y < -10f)
         {
             gameObject.transform.position = spawnPoint;
         }
@@ -38,6 +38,5 @@ public class PlayerCheckpoint : MonoBehaviour
             spawnPoint = flag2.transform.position;
             Destroy(flag2);
         }
-        
     }
 }
